@@ -11,9 +11,11 @@ d.setFullYear(2018);
 d.setHours(13,42,59,000);
 d.setMonth(6);
 
+var oaid = '';
+var sckey = '';
 var zaConfig = {
-    oaid: '53425692806963372',
-    secretkey: 'ZET7wmwkMDVk41YqnQKW'
+    oaid: oaid,
+    secretkey: sckey
 }
 var ZOAClient = new ZaloOA(zaConfig);
 //console.log(ZOAClient);
